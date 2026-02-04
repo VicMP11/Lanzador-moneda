@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lanzador de moneda</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
@@ -11,10 +12,15 @@
         <p>Bienvenido a mi jogo de ludopata, elige cara o cruz.</p>
     </header>
     <main>
-        <input type="radio" id="cara"> Cara
-        <input type="radio" id="cruz"> cruz
+        <section>
+        <input type="radio" id="cara" name="opcion"> Cara
+        <input type="radio" id="cruz" name="opcion"> Cruz
         <button id="Jugar_btn">Jugar</button>
+        </section>
+        <img src="Assets/cara euro.jpg" alt="Cara" style="display: none;">
+        <img src="Assets/cruz euro.jpg" alt="Cruz" style="display: none;">
     </main>
     <footer>Víctor Manuel Piñar Murillo</footer>
+    <script src="JS/scrypt.js"></script>
 </body>
 </html>
