@@ -33,7 +33,10 @@ img {
     width: 200px;
     margin-top: 20px;
 }
-#texto {
-    font-weight: bold;
-    margin-top: 15px;
+footer {
+    background-color: #2d8b51;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
+
