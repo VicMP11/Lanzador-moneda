@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lanzador de moneda</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
     <header>
         <h1>Lanzador de moneda</h1>
-        <p>Bienvenido a mi jogo de ludopata, elige cara o cruz.</p>
+        <p>Bienvenido a mi jogo de ludopata.</p>
     </header>
     <main>
-        <section>
-        <input type="radio" id="cara" name="opcion"> Cara
-        <input type="radio" id="cruz" name="opcion"> Cruz
-        <button id="Jugar_btn">Jugar</button>
+        <p>Selecciona Cara o Cruz</p>
+        <section id="eleccion">
+            <input type="radio" id="cara" name="opcion"> Cara
+            <input type="radio" id="cara" name="opcion"> Cruz
+            <button id="Jugar_btn">Jugar</button>
         </section>
-        <img src="Assets/gato_loading.gif" alt="Imagen de carga" style="display: none;">
-        <img src="Assets/cara euro.jpg" alt="Cara" style="display: none;">
-        <img src="Assets/cruz euro.jpg" alt="Cruz" style="display: none;">
+        <img src="Assets/gato_loading.gif" alt="Imagen de carga" id="imagenCarga" style="display: none;">
+        <img src="Assets/cara euro.jpg" alt="Cara" id="imagenEuro" style="display: none;">
+        <img src="Assets/cruz euro.jpg" alt="Cruz" id="imagenCruz" style="display: none;">
+        <p id="resultado"></p>
     </main>
     <footer>Víctor Manuel Piñar Murillo</footer>
     <script src="JS/scrypt.js"></script>
